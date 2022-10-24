@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Store Web Application", "Simple Store Web Application\Simple Store Web Application.csproj", "{7AF54806-95B4-4567-81D1-7FFDB59B5E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{3C25F700-E108-46F9-914F-AD5A7CC2ACCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{D644A7D0-131A-4105-A923-40B15CBD9ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Utility", "Common Utility\Common Utility.csproj", "{C407D629-22A4-4DBE-90BB-FC49EAEDD601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{AA93522F-AE9B-4BED-A3DA-32CAADE61336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{2A56008B-74DB-433A-B02E-AB3279D5B78D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWorkLayer", "UnitOfWorkLayer\UnitOfWorkLayer.csproj", "{B575B764-6E1D-4355-ABD1-25FFAA707B3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF54806-95B4-4567-81D1-7FFDB59B5E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF54806-95B4-4567-81D1-7FFDB59B5E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF54806-95B4-4567-81D1-7FFDB59B5E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF54806-95B4-4567-81D1-7FFDB59B5E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C25F700-E108-46F9-914F-AD5A7CC2ACCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C25F700-E108-46F9-914F-AD5A7CC2ACCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C25F700-E108-46F9-914F-AD5A7CC2ACCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C25F700-E108-46F9-914F-AD5A7CC2ACCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D644A7D0-131A-4105-A923-40B15CBD9ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D644A7D0-131A-4105-A923-40B15CBD9ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D644A7D0-131A-4105-A923-40B15CBD9ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D644A7D0-131A-4105-A923-40B15CBD9ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C407D629-22A4-4DBE-90BB-FC49EAEDD601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C407D629-22A4-4DBE-90BB-FC49EAEDD601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C407D629-22A4-4DBE-90BB-FC49EAEDD601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C407D629-22A4-4DBE-90BB-FC49EAEDD601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA93522F-AE9B-4BED-A3DA-32CAADE61336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA93522F-AE9B-4BED-A3DA-32CAADE61336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA93522F-AE9B-4BED-A3DA-32CAADE61336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA93522F-AE9B-4BED-A3DA-32CAADE61336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A56008B-74DB-433A-B02E-AB3279D5B78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A56008B-74DB-433A-B02E-AB3279D5B78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A56008B-74DB-433A-B02E-AB3279D5B78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A56008B-74DB-433A-B02E-AB3279D5B78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B575B764-6E1D-4355-ABD1-25FFAA707B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B575B764-6E1D-4355-ABD1-25FFAA707B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B575B764-6E1D-4355-ABD1-25FFAA707B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B575B764-6E1D-4355-ABD1-25FFAA707B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F514F3-CB5F-47FC-BED2-0E81FC130EBB}
+	EndGlobalSection
+EndGlobal
